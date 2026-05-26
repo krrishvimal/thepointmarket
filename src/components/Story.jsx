@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Instagram, Volume2, VolumeX } from 'lucide-react';
+import { Volume2, VolumeX } from 'lucide-react';
 
 // Sub-component for individual Reels (encapsulates muted states and direct links)
 function ReelCard({ reel }) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, Phone, Star, ArrowUpRight, Quote } from 'lucide-react';
+import { MapPin, Clock, Phone, Star, ArrowUpRight } from 'lucide-react';
 
 export default function Hero({ openOrderModal }) {
   return (

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Compass, Menu, X, ArrowUpRight } from 'lucide-react';
+import { Menu, X, ArrowUpRight } from 'lucide-react';
 
 export default function Navbar({ openOrderModal }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

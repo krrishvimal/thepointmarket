@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Flame, Sparkles } from 'lucide-react';
+import { Search, Sparkles } from 'lucide-react';
 
 const getTagIcon = (tag) => {
   const t = tag.toLowerCase();
