@@ -55,7 +55,7 @@ export default function Hero({ openOrderModal }) {
                 <span className="hero-nyt-quote-large-mark">“</span>
                 <div className="hero-nyt-quote-text-block">
                   <p className="hero-nyt-quote-text">
-                    “Since what many call the best breakfast burritos in California.”
+                    Serves what many call the best breakfast burritos in California.
                   </p>
                   <span className="hero-nyt-quote-author">
                     — THE NEW YORK TIMES

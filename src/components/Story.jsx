@@ -60,28 +60,19 @@ export default function Story() {
       id: 1,
       videoSrc: "/reel1.mp4",
       fallbackImage: "/the barrel.jpg",
-      reelUrl: "https://www.instagram.com/thepointmarket/",
-      caption: "Foil-wrapped & griddled fresh: Rolling the legendary Barrel Breakfast Burrito. 🍳🌯",
-      likes: "892",
-      comments: "42"
+      reelUrl: "https://www.instagram.com/thepointmarket/"
     },
     {
       id: 2,
       videoSrc: "/reel2.mp4",
       fallbackImage: "/Fresh organic hemp açaí bowl..jpg",
-      reelUrl: "https://www.instagram.com/thepointmarket/",
-      caption: "Post-surf fuel: Organic hemp acai bowl with fresh sliced strawberries and honey drizzle. 🍓🌊",
-      likes: "612",
-      comments: "28"
+      reelUrl: "https://www.instagram.com/thepointmarket/"
     },
     {
       id: 3,
       videoSrc: "/reel3.mp4",
       fallbackImage: "/684992420_18392997172152846_3757775233535858853_n.jpg",
-      reelUrl: "https://www.instagram.com/thepointmarket/",
-      caption: "Iron-pressed Turkey Pesto paninis on locally sourced sourdough. Crispy & hot! 🥪🔥",
-      likes: "724",
-      comments: "35"
+      reelUrl: "https://www.instagram.com/thepointmarket/"
     }
   ];
 
