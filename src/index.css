@@ -2580,8 +2580,10 @@ button {
   }
   
   .hero-title {
-    font-size: clamp(32px, 8vw, 46px) !important;
+    font-size: clamp(26px, 7.5vw, 38px) !important;
     white-space: normal !important; /* Allow title to wrap on mobile */
+    line-height: 1.25 !important;
+    word-wrap: break-word !important;
   }
   
   .hero-accent-wing {
@@ -2592,7 +2594,10 @@ button {
     grid-template-columns: 1fr !important;
   }
   
-
+  .story-narrative-columns {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
   
   .menu-filter-bar {
     flex-direction: column;
@@ -2616,6 +2621,21 @@ button {
 
   .menu-search-wrapper {
     width: 100% !important;
+  }
+
+  .menu-card-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+  }
+  
+  .menu-card-leader {
+    display: none !important;
+  }
+  
+  .menu-card-title,
+  .menu-card-price {
+    white-space: normal !important;
   }
   
   .footer-grid {
@@ -2683,7 +2703,7 @@ button {
    ========================================================================== */
 
 /* Media query for screens with height <= 800px (like 1366x768 where viewport is small) */
-@media (max-height: 800px) {
+@media (min-width: 769px) and (max-height: 800px) {
   .navbar {
     padding: 12px 0 !important;
   }
